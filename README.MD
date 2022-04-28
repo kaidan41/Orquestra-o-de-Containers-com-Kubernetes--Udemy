@@ -1,6 +1,6 @@
 #Orquestração de conteiners com kubernetes comandos
 
-#Verifciar historico de atualização deployments kubernetes
+#Verificar historico de atualização deployments kubernetes
 kubectl.exe rollout history deployment/nginx -n nomedonamespace
 
 #Desfazer deployment
