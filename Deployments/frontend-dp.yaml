@@ -21,7 +21,6 @@ spec:
     matchLabels:
       type: frontend
   strategy:
-    clear
     type: RollingUpdate
   replicas: 6
     
